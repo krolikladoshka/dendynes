@@ -1,0 +1,22 @@
+[package]
+name = "dendynes"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+piston = "*"
+piston2d-graphics = "*"
+piston_window = "*"
+image = "*"
+log = "*"
+fern = "0.6.2"
+lazy_static = "*"
+nom = "*"
+enum-primitive-derive = "*"
+num-traits = "*"
+bitflags = "2.1.0"
+
+[profile.dev]
+opt-leve = 3
