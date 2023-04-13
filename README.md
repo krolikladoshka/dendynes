@@ -1,4 +1,4 @@
-# dendynes
+# dendynes emulator
 a project I always wanted to implement & to refresh rust knowledge
 
 * Has sprite rendering bug (overlapping from neighbouring nametable);
