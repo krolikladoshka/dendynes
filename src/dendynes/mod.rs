@@ -143,12 +143,12 @@ pub fn dendy_run() {
 
     let current_file = Path::new(file!());
 
-    // let cartridge_path = "tests/roms/donkey kong.nes";
+    let cartridge_path = "tests/roms/donkey kong.nes";
     // let cartridge_path = "tests/roms/nestest.nes";
-    // let cartridge_path = "tests/roms/Super_mario_brothers.nes";
+    //let cartridge_path = "tests/roms/Super_mario_brothers.nes";
     // let cartridge_path = "tests/roms/DuckTales (USA).nes";
     // let cartridge_path = "tests/roms/Bomber_man.nes";
-    let cartridge_path = "tests/roms/Contra (U).nes";
+    // let cartridge_path = "tests/roms/Contra (U).nes";
     // let cartridge_path = "tests/roms/Duck Hunt (World).nes";
     let cartridge_path = current_file.parent().unwrap().join(cartridge_path);
 
